@@ -1,2 +1,5 @@
-# Digital-Calculator-in-Verilog
-Designed and simulated a 4-bit arithmetic calculator in Verilog supporting addition, subtraction, multiplication, and division. Added divide-by-zero handling and a testbench to verify the design with multiple input combinations.  Technologies: Verilog, HDL, Digital Logic, Simulation
+# Digital Calculator in Verilog
+A 4-bit arithmetic unit supporting addition, subtraction, multiplication and division.
+Simulation with Icarus Verilog:
+`iverilog -o sim calculator.v calculator_tb.v`
+then `vvp sim`
